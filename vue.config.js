@@ -1,4 +1,4 @@
 module.exports = {
-    publicPath: process.env.MODE_ENV === "productgion" ? "/vue-corona-app" : "/",
+    publicPath: process.env.MODE_ENV === "production" ? "/vue-corona-app" : "/",
     outputDir: "docs",
 };
